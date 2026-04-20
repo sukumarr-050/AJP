@@ -24,8 +24,8 @@ app.get("/",(req,res)=>{
 
 app.get("/student",checkAPiKey,(req,res)=>{
     res.json([
-        { id:1 , name:"srihas"},
-        { id:2 , name:"sadie sink"}
+        { id:1 , name:"Sukumar"},
+        { id:2 , name:"HeHe"}
     ])
 })
 
